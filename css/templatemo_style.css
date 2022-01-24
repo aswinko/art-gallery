@@ -783,6 +783,27 @@ footer .social li {
   display: inline-block;
   margin-left: 20px;
 }
+
+.c2b-develop {
+  color: #F4F4F2;
+  font-size: 10px;
+  
+}
+
+.c2b-develop span {
+  
+  font-size: 10px;
+  font-family: monospace;
+}
+
+.c2b-develop span a {
+  color: #EFFFFB;
+}
+
+.c2b-develop span a:hover {
+  color: #272727;
+}
+
 @media (max-width: 1200px) {
   #products .circle {
     width: 270px;
@@ -810,12 +831,17 @@ footer .social li {
     position: relative;
     left: 65%;
   }
+
 }
 
 @media(min-width: 1024px) {
   footer p{
     position: relative;
-    left: 70%;
+    left: 80%;
+  }
+  .footer-develop p{
+    position: relative;
+    left: 88%;
   }
 }
 
@@ -877,7 +903,13 @@ footer .social li {
     padding: 0;
    text-align: center;
   }
+
+  footer .social {
+    text-align: center;
+  }
 }
+
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */
